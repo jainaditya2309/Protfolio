@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import Navbar from './Components/Navbar'
 import Section from './Components/Section'
 import Second from './Components/Second'
-import Footer from './Components/footer'
+import Footer from './Components/Footer'
 import About from './Components/About'
 import Project from './Components/Project'
 
