@@ -1,10 +1,11 @@
-import { useState, useEffect } from 'react'
-import Navbar from './Components/Navbar'
-import Section from './Components/Section'
-import Second from './Components/Second'
-import Footer from './Components/Footer'
 import About from './Components/About'
+import Footer from './Components/Footer'
+import InstallPWA from './Components/InstallPWA'
+import Navbar from './Components/Navbar'
 import Project from './Components/Project'
+import PWAUpdater from './Components/PWAUpdater'
+import Second from './Components/Second'
+import Section from './Components/Section'
 
 
 
@@ -23,6 +24,8 @@ function App() {
       <div className="  h-0.5 bg-purple-500  mt-10 mb-10 ml-20 mr-20"><hr /></div>
       <Second />
       <Footer />
+      <InstallPWA />
+      <PWAUpdater />
     </>
   )
 }
