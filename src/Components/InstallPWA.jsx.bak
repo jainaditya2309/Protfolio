@@ -5,15 +5,8 @@ import { FaDownload, FaMobile, FaTimes } from 'react-icons/fa';
 const InstallPWA = () => {
   const [deferredPrompt, setDeferredPrompt] = useState(null);
   const [showInstallPrompt, setShowInstallPrompt] = useState(false);
-  const [isInstalled, setIsInstalled] = useState(false);
 
   useEffect(() => {
-    // Check if app is already installed
-    if (window.matchMedia('(display-mode: standalone)').matches) {
-      setIsInstalled(true);
-      return; // Already installed, don't show install prompt
-    }
-    
     const handler = (e) => {
       // Prevent Chrome 67 and earlier from automatically showing the prompt
       e.preventDefault();
@@ -23,16 +16,8 @@ const InstallPWA = () => {
     };
 
     window.addEventListener('beforeinstallprompt', handler);
-    
-    // If user installs the app
-    window.addEventListener('appinstalled', () => {
-      setIsInstalled(true);
-      setShowInstallPrompt(false);
-    });
 
-    return () => {
-      window.removeEventListener('beforeinstallprompt', handler);
-    };
+    return () => window.removeEventListener('beforeinstallprompt', handler);
   }, []);
 
   const handleInstallClick = async () => {

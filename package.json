@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "postinstall": "node ./node_modules/vite-plugin-pwa/scripts/dev-sw-register.js"
   },
   "dependencies": {
     "@react-icons/all-files": "^4.1.0",
