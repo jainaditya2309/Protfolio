@@ -2,36 +2,37 @@ import { AnimatePresence, motion } from 'framer-motion';
 import { useEffect, useState } from 'react';
 import { FaSync, FaTimes } from 'react-icons/fa';
 
-const PWAUpdater = () => {
+const PWAUpdate = () => {
   const [showUpdatePrompt, setShowUpdatePrompt] = useState(false);
-  const [updateRegistration, setUpdateRegistration] = useState(null);
 
   useEffect(() => {
-    // Listen for service worker update
-    if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.addEventListener('controllerchange', () => {
-        window.location.reload();
+    // Simplified service worker update check
+    const checkForUpdates = () => {
+      if (!('serviceWorker' in navigator)) return;
+      
+      // Check for any waiting service workers
+      navigator.serviceWorker.getRegistration().then(reg => {
+        if (reg && reg.waiting) {
+          setShowUpdatePrompt(true);
+        }
       });
-
-      navigator.serviceWorker.ready.then((registration) => {
-        registration.addEventListener('updatefound', () => {
-          const newWorker = registration.installing;
-          
-          newWorker.addEventListener('statechange', () => {
-            if (newWorker.state === 'installed' && navigator.serviceWorker.controller) {
-              setUpdateRegistration(registration);
-              setShowUpdatePrompt(true);
-            }
-          });
-        });
-      });
-    }
+    };
+    
+    // Check on mount and periodically
+    checkForUpdates();
+    const interval = setInterval(checkForUpdates, 60 * 60 * 1000); // Every hour
+    
+    return () => clearInterval(interval);
   }, []);
 
   const handleUpdate = () => {
-    if (updateRegistration && updateRegistration.waiting) {
-      updateRegistration.waiting.postMessage({ type: 'SKIP_WAITING' });
-      setShowUpdatePrompt(false);
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.getRegistration().then(reg => {
+        if (reg && reg.waiting) {
+          reg.waiting.postMessage({ type: 'SKIP_WAITING' });
+          setShowUpdatePrompt(false);
+        }
+      });
     }
   };
 
@@ -100,4 +101,4 @@ const PWAUpdater = () => {
   );
 };
 
-export default PWAUpdater;
+export default PWAUpdate;

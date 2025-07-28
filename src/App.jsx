@@ -3,7 +3,7 @@ import Footer from './Components/Footer'
 import InstallPWA from './Components/InstallPWA'
 import Navbar from './Components/Navbar'
 import Project from './Components/Project'
-import PWAUpdater from './Components/PWAUpdater'
+import PWAUpdate from './Components/PWAUpdate'
 import Second from './Components/Second'
 import Section from './Components/Section'
 
@@ -25,7 +25,7 @@ function App() {
       <Second />
       <Footer />
       <InstallPWA />
-      <PWAUpdater />
+      <PWAUpdate />
     </>
   )
 }
