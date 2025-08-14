@@ -376,7 +376,8 @@ const Section = () => {
           >
             <Button />
           </motion.div>
-          <motion.button 
+          <motion.a 
+            href="#projects"
             className="px-6 py-3 border-2 border-purple-400 text-purple-400 hover:bg-purple-500 hover:text-white transition-all duration-300 rounded-lg font-medium relative overflow-hidden group"
             whileHover={{ 
               scale: 1.05,
@@ -390,7 +391,7 @@ const Section = () => {
               initial={{ scale: 0 }}
               whileHover={{ scale: 1 }}
             />
-          </motion.button>
+          </motion.a>
         </motion.div>
 
         {/* Updated Social Links or Stats */}

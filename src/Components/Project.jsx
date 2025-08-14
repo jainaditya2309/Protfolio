@@ -448,7 +448,7 @@ const Second = () => {
               </motion.div>
             </motion.div>
 
-            {/* Project 2 - LinkNest */}
+            {/* Project 2 - MultiMantra */}
             <motion.div
               className="relative group"
               variants={projectVariants}
@@ -464,12 +464,12 @@ const Second = () => {
 
               <motion.div className="bg-gradient-to-br from-slate-800/50 to-slate-900/50 backdrop-blur-sm border border-slate-700/50 rounded-2xl p-6 shadow-2xl hover:shadow-blue-500/20 transition-all duration-500 ml-8 lg:ml-0">
                 <motion.div className="relative mb-6 overflow-hidden rounded-xl group-hover:scale-105 transition-transform duration-500">
-                  <motion.a href="https://github.com/ADITYA9456/LinkNest.git" target="_blank" rel="noopener noreferrer">
+                  <motion.a href="https://github.com/ADITYA9456/MultiMantra.git" target="_blank" rel="noopener noreferrer">
                     <motion.img 
                       width={280} 
                       height={160} 
-                      src="gif/nest.gif" 
-                      alt="LinkNest"
+                      src="gif/multimantra.gif" 
+                      alt="MultiMantra"
                       className="w-full h-40 object-cover rounded-xl"
                       whileHover={{ scale: 1.1 }}
                       transition={{ duration: 0.6 }}
@@ -481,7 +481,7 @@ const Second = () => {
                     className="absolute inset-0 bg-black/80 backdrop-blur-sm flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-500 rounded-xl"
                   >
                     <motion.a
-                      href="https://github.com/ADITYA9456/LinkNest.git"
+                      href="https://github.com/ADITYA9456/MultiMantra.git"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="px-6 py-3 bg-gradient-to-r from-slate-800 to-black border-2 border-slate-600 text-white rounded-xl font-medium hover:border-blue-500/50 transition-all flex items-center gap-2"
@@ -499,7 +499,7 @@ const Second = () => {
                     className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent"
                     whileHover={{ scale: 1.02 }}
                   >
-                    LinkNest
+                    MultiMantra
                   </motion.h3>
                   
                   <motion.p 
@@ -508,11 +508,11 @@ const Second = () => {
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ delay: 0.3 }}
                   >
-                    A modern Link in Bio web app for creating personalized pages to showcase important links. Built with Next.js, Tailwind CSS, perfect for creators and professionals.
+                    MultiMantra is an advanced digital platform offering blog creation, secure online donations, a customizable linktree-style hub, powerful URL shortening, and an intelligent rule-based chatbot. Built with Next.js, MongoDB, Tailwind CSS, and Razorpay, it delivers a seamless, interactive user experience.
                   </motion.p>
 
                   <div className="flex flex-wrap gap-2">
-                    {["Next.js", "Tailwind", "Node.js", "MongoDB"].map((tech, index) => (
+                    {["Next.js", "Node", "Express", "Tailwind", "MongoDB", "Razorpay", "Auth", "Chatbot (Rule-based)"].map((tech, index) => (
                       <motion.span
                         key={tech}
                         className="px-3 py-1 bg-slate-800/80 border border-slate-600 text-slate-300 rounded-lg text-xs font-medium"
@@ -528,7 +528,7 @@ const Second = () => {
               </motion.div>
             </motion.div>
 
-            {/* Project 3 - URLite */}
+            {/* Project 3 - BuildupX */}
             <motion.div
               className="relative group"
               variants={projectVariants}
@@ -544,12 +544,12 @@ const Second = () => {
 
               <motion.div className="bg-gradient-to-br from-slate-800/50 to-slate-900/50 backdrop-blur-sm border border-slate-700/50 rounded-2xl p-6 shadow-2xl hover:shadow-green-500/20 transition-all duration-500 ml-8 lg:ml-0">
                 <motion.div className="relative mb-6 overflow-hidden rounded-xl group-hover:scale-105 transition-transform duration-500">
-                  <motion.a href="https://github.com/ADITYA9456/URLite.git" target="_blank" rel="noopener noreferrer">
+                  <motion.a href="https://github.com/ADITYA9456/BuildupX.git" target="_blank" rel="noopener noreferrer">
                     <motion.img 
                       width={280} 
                       height={160} 
-                      src="gif/urlite.gif" 
-                      alt="URLite"
+                      src="gif/build.gif" 
+                      alt="BuildupX"
                       className="w-full h-40 object-cover rounded-xl"
                       whileHover={{ scale: 1.1 }}
                       transition={{ duration: 0.6 }}
@@ -561,7 +561,7 @@ const Second = () => {
                     className="absolute inset-0 bg-black/80 backdrop-blur-sm flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-500 rounded-xl"
                   >
                     <motion.a
-                      href="https://github.com/ADITYA9456/URLite.git"
+                      href="https://github.com/ADITYA9456/BuildupX.git"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="px-6 py-3 bg-gradient-to-r from-slate-800 to-black border-2 border-slate-600 text-white rounded-xl font-medium hover:border-green-500/50 transition-all flex items-center gap-2"
@@ -579,7 +579,7 @@ const Second = () => {
                     className="text-2xl font-bold bg-gradient-to-r from-green-400 to-teal-500 bg-clip-text text-transparent"
                     whileHover={{ scale: 1.02 }}
                   >
-                    URLite
+                    BuildupX
                   </motion.h3>
                   
                   <motion.p 
@@ -588,11 +588,11 @@ const Second = () => {
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ delay: 0.3 }}
                   >
-                    A sleek URL shortener creating clean, memorable links. Perfect for social media and campaigns with smart redirection and analytics features.
+                    BuildupX is a modern fitness tracking and membership platform that empowers users to achieve their wellness goals. The app combines gym membership management, personalized diet planning, calorie tracking, and meal logging with an intuitive interface. Users can purchase membership plans, track nutrition, generate customized meal plans, and monitor their fitness progress—all in one seamless mobile-ready PWA.
                   </motion.p>
 
                   <div className="flex flex-wrap gap-2">
-                    {["JavaScript", "Node.js", "MongoDB", "Express"].map((tech, index) => (
+                    {["Next.js", "Tailwind", "Mongo Atlas", "Gemini API", "Auth", "JWT", "Web Manifest", "PWA"].map((tech, index) => (
                       <motion.span
                         key={tech}
                         className="px-3 py-1 bg-slate-800/80 border border-slate-600 text-slate-300 rounded-lg text-xs font-medium"
@@ -734,7 +734,7 @@ const Second = () => {
 
                 {/* Feature highlights */}
                 <motion.div className="flex flex-wrap justify-center gap-2 my-4">
-                  {["📹 Videos", "🔗 Links", "💻 Code", "📚 Docs"].map((feature, index) => (
+                  {["📹 Videos", "🔗 Links", "💻 Code"].map((feature, index) => (
                     <motion.div
                       key={feature}
                       className="px-3 py-1 bg-slate-700/50 border border-slate-600/50 rounded-full text-slate-300 text-xs"
@@ -747,31 +747,22 @@ const Second = () => {
                   ))}
                 </motion.div>
                 
-                {/* 🚨 LINE 574-582: REPLACE THIS BUTTON WITH YOUR WEBSITE LINK */}
-                <motion.button
-                  className="group px-6 py-3 bg-gradient-to-r from-slate-700 to-slate-800 border-2 border-slate-600 text-gray-400 rounded-xl font-bold text-sm cursor-not-allowed opacity-75 inline-flex items-center gap-2"
+                {/* Visit Showcase Website Link */}
+                <motion.a
+                  href="https://aditya9456.github.io/showcase/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="group px-6 py-3 bg-gradient-to-r from-yellow-600 to-orange-600 border-2 border-yellow-500/50 text-white rounded-xl font-bold text-sm inline-flex items-center gap-2"
                   whileHover={{ 
-                    scale: 1.02,
-                    borderColor: "rgba(251, 191, 36, 0.5)"
+                    scale: 1.05,
+                    borderColor: "rgba(251, 191, 36, 0.8)"
                   }}
+                  whileTap={{ scale: 0.98 }}
                 >
-                  <span className="text-lg">🔧</span>
-                  <span>Under Construction</span>
-                  <span className="text-lg">🔧</span>
-                </motion.button>
-
-                {/* 📝 TODO MARKER */}
-                <motion.div 
-                  className="mt-4 p-3 bg-yellow-500/10 border border-yellow-500/30 rounded-lg text-yellow-300 text-xs"
-                  initial={{ opacity: 0 }}
-                  whileInView={{ opacity: 1 }}
-                  transition={{ delay: 0.6 }}
-                >
-                  <strong>📝 TODO:</strong> Replace the button above!<br/>
-                  <code className="text-xs text-yellow-400">
-                    Lines 574-582: Add your website URL here
-                  </code>
-                </motion.div>
+                  <span className="text-lg">�</span>
+                  <span>Visit Showcase</span>
+                  <span className="text-lg group-hover:translate-x-1 transition-transform">→</span>
+                </motion.a>
               </div>
             </motion.div>
           </motion.div>
