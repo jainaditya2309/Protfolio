@@ -749,7 +749,7 @@ const Second = () => {
                 
                 {/* Visit Showcase Website Link */}
                 <motion.a
-                  href="https://aditya9456.github.io/showcase/"
+                  href="https://aditya9456.github.io/My-projects/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="group px-6 py-3 bg-gradient-to-r from-yellow-600 to-orange-600 border-2 border-yellow-500/50 text-white rounded-xl font-bold text-sm inline-flex items-center gap-2"
