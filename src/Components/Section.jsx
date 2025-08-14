@@ -137,7 +137,7 @@ const Section = () => {
   return (
     <motion.section 
       id="home"
-      className="first relative flex flex-col lg:flex-row justify-center items-center min-h-screen px-6 lg:px-20 py-12 overflow-hidden bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900"
+      className="first relative flex flex-col lg:flex-row justify-center items-center min-h-screen px-6 lg:px-20 pt-24 pb-12 md:py-12 overflow-hidden bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900"
       variants={containerVariants}
       initial="hidden"
       animate="visible"
