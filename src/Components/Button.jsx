@@ -29,7 +29,7 @@ const Button = () => {
         >
             {/* Resume Button */}
             <motion.a
-                href="https://aditya9456.github.io/resume/"
+                href="https://jainaditya2309.github.io/Resume/"
                 rel="noopener noreferrer"
                 className="group relative inline-flex items-center gap-3 px-6 py-3 bg-gradient-to-r from-violet-600 to-purple-600 text-white rounded-xl font-semibold shadow-lg overflow-hidden"
                 variants={buttonVariants}
