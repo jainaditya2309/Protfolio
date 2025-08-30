@@ -384,7 +384,7 @@ const Second = () => {
 
               <motion.div className="bg-gradient-to-br from-slate-800/50 to-slate-900/50 backdrop-blur-sm border border-slate-700/50 rounded-2xl p-6 shadow-2xl hover:shadow-orange-500/20 transition-all duration-500 ml-8 lg:ml-0">
                 <motion.div className="relative mb-6 overflow-hidden rounded-xl group-hover:scale-105 transition-transform duration-500">
-                  <motion.a href="https://github.com/ADITYA9456/chai-Express.git" target="_blank" rel="noopener noreferrer">
+                  <motion.a href="https://github.com/jainaditya2309/chai-Express.git" target="_blank" rel="noopener noreferrer">
                     <motion.img 
                       width={280} 
                       height={160} 
@@ -401,7 +401,7 @@ const Second = () => {
                     className="absolute inset-0 bg-black/80 backdrop-blur-sm flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-500 rounded-xl"
                   >
                     <motion.a
-                      href="https://github.com/ADITYA9456/chai-Express.git"
+                      href="https://github.com/jainaditya2309/chai-Express.git"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="px-6 py-3 bg-gradient-to-r from-slate-800 to-black border-2 border-slate-600 text-white rounded-xl font-medium hover:border-orange-500/50 transition-all flex items-center gap-2"
@@ -464,7 +464,7 @@ const Second = () => {
 
               <motion.div className="bg-gradient-to-br from-slate-800/50 to-slate-900/50 backdrop-blur-sm border border-slate-700/50 rounded-2xl p-6 shadow-2xl hover:shadow-blue-500/20 transition-all duration-500 ml-8 lg:ml-0">
                 <motion.div className="relative mb-6 overflow-hidden rounded-xl group-hover:scale-105 transition-transform duration-500">
-                  <motion.a href="https://github.com/ADITYA9456/MultiMantra.git" target="_blank" rel="noopener noreferrer">
+                  <motion.a href="https://github.com/jainaditya2309/MultiMantra.git" target="_blank" rel="noopener noreferrer">
                     <motion.img 
                       width={280} 
                       height={160} 
@@ -481,7 +481,7 @@ const Second = () => {
                     className="absolute inset-0 bg-black/80 backdrop-blur-sm flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-500 rounded-xl"
                   >
                     <motion.a
-                      href="https://github.com/ADITYA9456/MultiMantra.git"
+                      href="https://github.com/jainaditya2309/MultiMantra.git"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="px-6 py-3 bg-gradient-to-r from-slate-800 to-black border-2 border-slate-600 text-white rounded-xl font-medium hover:border-blue-500/50 transition-all flex items-center gap-2"
@@ -544,7 +544,7 @@ const Second = () => {
 
               <motion.div className="bg-gradient-to-br from-slate-800/50 to-slate-900/50 backdrop-blur-sm border border-slate-700/50 rounded-2xl p-6 shadow-2xl hover:shadow-green-500/20 transition-all duration-500 ml-8 lg:ml-0">
                 <motion.div className="relative mb-6 overflow-hidden rounded-xl group-hover:scale-105 transition-transform duration-500">
-                  <motion.a href="https://github.com/ADITYA9456/BuildupX.git" target="_blank" rel="noopener noreferrer">
+                  <motion.a href="https://github.com/jainaditya2309/BuildupX.git" target="_blank" rel="noopener noreferrer">
                     <motion.img 
                       width={280} 
                       height={160} 
@@ -561,7 +561,7 @@ const Second = () => {
                     className="absolute inset-0 bg-black/80 backdrop-blur-sm flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-500 rounded-xl"
                   >
                     <motion.a
-                      href="https://github.com/ADITYA9456/BuildupX.git"
+                      href="https://github.com/jainaditya2309/BuildupX.git"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="px-6 py-3 bg-gradient-to-r from-slate-800 to-black border-2 border-slate-600 text-white rounded-xl font-medium hover:border-green-500/50 transition-all flex items-center gap-2"
@@ -624,7 +624,7 @@ const Second = () => {
 
               <motion.div className="bg-gradient-to-br from-slate-800/50 to-slate-900/50 backdrop-blur-sm border border-slate-700/50 rounded-2xl p-6 shadow-2xl hover:shadow-purple-500/20 transition-all duration-500 ml-8 lg:ml-0">
                 <motion.div className="relative mb-6 overflow-hidden rounded-xl group-hover:scale-105 transition-transform duration-500">
-                  <motion.a href="https://github.com/ADITYA9456/VaultX.git" target="_blank" rel="noopener noreferrer">
+                  <motion.a href="https://github.com/jainaditya2309/VaultX.git" target="_blank" rel="noopener noreferrer">
                     <motion.img 
                       width={280} 
                       height={160} 
@@ -641,7 +641,7 @@ const Second = () => {
                     className="absolute inset-0 bg-black/80 backdrop-blur-sm flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-500 rounded-xl"
                   >
                     <motion.a
-                      href="https://github.com/ADITYA9456/VaultX.git"
+                      href="https://github.com/jainaditya2309/VaultX.git"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="px-6 py-3 bg-gradient-to-r from-slate-800 to-black border-2 border-slate-600 text-white rounded-xl font-medium hover:border-purple-500/50 transition-all flex items-center gap-2"
@@ -749,7 +749,7 @@ const Second = () => {
                 
                 {/* Visit Showcase Website Link */}
                 <motion.a
-                  href="https://aditya9456.github.io/My-projects/"
+                  href="https://jainaditya2309.github.io/Showcase/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="group px-6 py-3 bg-gradient-to-r from-yellow-600 to-orange-600 border-2 border-yellow-500/50 text-white rounded-xl font-bold text-sm inline-flex items-center gap-2"
@@ -805,7 +805,7 @@ const Second = () => {
                 </motion.p>
                 
                 <motion.a
-                  href="https://github.com/ADITYA9456"
+                  href="https://github.com/jainaditya2309"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="group inline-flex items-center gap-3 px-6 py-4 bg-gradient-to-r from-slate-800 to-black border-2 border-slate-700 text-white rounded-xl font-bold hover:border-purple-500/50 transition-all shadow-2xl"
